@@ -24,8 +24,8 @@ async function displayCourseDetails(courseId){
     let courseDetailDiv = document.querySelector("#courseDetails");
     courseDetailDiv.innerHTML =`<div>courseId:${courseDetails.id}</div>
     <div>course Name:${courseDetails.courseName}</div>
-    <div>course Instructor:${courseDetails.instructor}</div>
-    <div>course Days:${courseDetails.numDays}</div>` 
+    <div>Instructor:${courseDetails.instructor}</div>
+    <div>Days:${courseDetails.numDays}</div>` 
 }
 async function getCourseDetails(courseId){
 
