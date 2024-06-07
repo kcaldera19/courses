@@ -29,6 +29,9 @@ function buildRow (someTableBody,someData){
     let courseTitle = row.insertCell();
     courseTitle.innerHTML = someData.courseName;
 
+    let courseDetailCell = row.insertCell();
+    courseDetailCell.innerHTML = `<a href="./details.html?courseid=${someData.id}">Show Details</a>`;
+
 
 
 
