@@ -33,6 +33,11 @@ function buildRow (someTableBody,someData){
     courseDetailCell.innerHTML = `<a href="./details.html?courseid=${someData.id}">Show Details</a>`;
 
 
+    let adminStuffCell = row.insertCell();
+    
+    adminStuffCell.innerHTML = `<a href="./delete.html?courseid=${someData.id}">Delete Course</a>`;
+    adminStuffCell.innerHTML = `<a href="./edit.html?courseid=${someData.id}">Delete Course</a>`;
+
 
 
 }
